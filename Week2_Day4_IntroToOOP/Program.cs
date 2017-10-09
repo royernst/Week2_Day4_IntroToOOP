@@ -41,26 +41,26 @@ namespace Week2_Day4_IntroToOOP
 
             //firstDoge.Bark();
 
-            Dog secondDoge = new Dog();
+            //Dog secondDoge = new Dog();
 
-            secondDoge.FurLength = "fluffy";
-            secondDoge.Height = 4.04f;
-            secondDoge.RunningSpeed = "faster than lightning.";
-            secondDoge.Weight = 78.9d;
+            //secondDoge.FurLength = "fluffy";
+            //secondDoge.Height = 4.04f;
+            //secondDoge.RunningSpeed = "faster than lightning.";
+            //secondDoge.Weight = 78.9d;
 
-            Console.WriteLine(secondDoge.FurLength);
-            secondDoge.Groom();
-            Console.WriteLine(secondDoge.FurLength);
+            //Console.WriteLine(secondDoge.FurLength);
+            //secondDoge.Groom();
+            //Console.WriteLine(secondDoge.FurLength);
 
-            Console.WriteLine(secondDoge.RunningSpeed);
-            secondDoge.Run();
-            Console.WriteLine(secondDoge.RunningSpeed);
+            //Console.WriteLine(secondDoge.RunningSpeed);
+            //secondDoge.Run();
+            //Console.WriteLine(secondDoge.RunningSpeed);
 
-            Console.WriteLine(secondDoge.Weight);
-            secondDoge.Potty();
-            Console.WriteLine(secondDoge.Weight);
+            //Console.WriteLine(secondDoge.Weight);
+            //secondDoge.Potty();
+            //Console.WriteLine(secondDoge.Weight);
 
-            secondDoge.Bark();
+            //secondDoge.Bark();
         }
     }
     public class Squid
