@@ -10,7 +10,7 @@ namespace Week2_Day4_IntroToOOP
     {
         //fields
         private string furLength;
-        private int weight;
+        private double weight;
         private string runningSpeed;
         private float height;
 
@@ -33,10 +33,39 @@ namespace Week2_Day4_IntroToOOP
             set { this.runningSpeed = value; }
         }
 
-        public int Weight
+        public double Weight
         {
             get { return this.weight; }
             set { this.weight = value; }
+        }
+
+        //CONSTRUCTORS
+        public Dog()
+        {
+            //intentionally left blank
+        }
+
+        //METHODS
+
+        public void Run()
+        {
+            runningSpeed = "getting faster.";
+            weight = weight - .25;
+        }
+
+        public void Bark()
+        {
+            Console.WriteLine("\a");
+        }
+
+        public void Potty()
+        {
+            weight = weight - .1;
+        }
+
+        public void Groom()
+        {
+            furLength = "all cleaned up.";
         }
 
     }
