@@ -50,7 +50,7 @@ namespace Week2_Day4_IntroToOOP
         public void Run()
         {
             runningSpeed = "getting faster.";
-            weight = weight - .25;
+            weight = weight - .25d;
         }
 
         public void Bark()
@@ -60,7 +60,7 @@ namespace Week2_Day4_IntroToOOP
 
         public void Potty()
         {
-            weight = weight - .1;
+            weight = weight - .1d;
         }
 
         public void Groom()
